@@ -1991,6 +1991,9 @@ body.modal-open .feature-close {
     padding: 0;
   }
 
+      .hero-description{
+            max-width: 280px;}
+
   .hero-netflix-logo {
     width: 100px;
     height: auto;
