@@ -2855,6 +2855,7 @@ rgba(0,0,0,0.6) 97%,
   clear: both;
 }
 
+
 .language-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2872,7 +2873,7 @@ rgba(0,0,0,0.6) 97%,
   column-gap: 10px;
   row-gap: 6px;
   align-items: start;
-  height: 120px;
+  height: 100%;
   padding: 10px;
   border-radius: 12px;
   overflow: hidden;
@@ -2936,10 +2937,10 @@ rgba(0,0,0,0.6) 97%,
   font-size: 10px;
 }
 
-      .language-card:nth-child(1) { order: 1; height: auto; padding: 8px; } /* cantonese */
-  .language-card:nth-child(2) { order: 3; height: auto; padding: 8px; } /* korean */
-  .language-card:nth-child(3) { order: 4; height: auto; padding: 8px; } /* english */
-  .language-card:nth-child(4) { order: 2; height: auto; padding: 8px; } /* chinese */
+      .language-card:nth-child(1) { order: 1; padding: 8px; } /* cantonese */
+  .language-card:nth-child(2) { order: 3; padding: 8px; } /* korean */
+  .language-card:nth-child(3) { order: 4; padding: 8px; } /* english */
+  .language-card:nth-child(4) { order: 2; padding: 8px; } /* chinese */
 
       
 .contact-section {
