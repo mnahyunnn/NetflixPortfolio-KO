@@ -2481,7 +2481,7 @@ rgba(0,0,0,0.6) 97%,
 .hero-btn span{
   font-size: 18px;
 }
-@media screen and (max-width: 480px) {
+
   .hero {
     position: relative;
     height: auto;
@@ -2507,7 +2507,7 @@ rgba(0,0,0,0.6) 97%,
     margin-top: 0;
     padding-top: 12px;
   }
-}
+
 
 .my-list-section {
     padding: 18px 12px 24px;
@@ -2755,11 +2755,6 @@ rgba(0,0,0,0.6) 97%,
     padding: 0 12px;
     clear: both;
   }
-}
-      .language-card:nth-child(1) { order: 1; } /* cantonese */
-  .language-card:nth-child(2) { order: 3; } /* korean */
-  .language-card:nth-child(3) { order: 4; } /* english */
-  .language-card:nth-child(4) { order: 2; } /* chinese */
 
 
   /* =========================
